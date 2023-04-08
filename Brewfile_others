@@ -1,4 +1,1 @@
-# programming
-cask "docker"
-brew "yarn"
 brew "rust"

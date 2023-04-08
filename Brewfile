@@ -17,7 +17,6 @@ brew "gitui"
 brew "git-delta"
 
 # programming
-brew "rust"
 cask "docker"
 brew "yarn"
 
