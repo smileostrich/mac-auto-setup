@@ -23,6 +23,8 @@ make install-others
 - [Homebrew](https://brew.sh/)
 - [Oh My Zsh](https://ohmyz.sh/)
 - [zinit](https://github.com/zdharma-continuum/zinit)
+- [powerlevel10k]()
+- [history-search-multi-word]()
 - [zsh](https://formulae.brew.sh/formula/zsh)
 - [zsh-syntax-highlighting](https://formulae.brew.sh/formula/zsh-syntax-highlighting)
 - [zsh-completions](https://formulae.brew.sh/formula/zsh-completions)
