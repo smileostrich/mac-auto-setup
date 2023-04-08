@@ -1,3 +1,5 @@
+SHELL := /bin/zsh
+
 install: set-xcode set-ohmyzsh set-zinit set-brew
 	sudo -v
 	brew update
@@ -37,13 +39,15 @@ set-ohmyzsh:
 	fi
 
 set-zinit:
-	if [ -x $$(which zinit) ]; then \
+	if command -v zinit > /dev/null; then \
 		echo "Zinit already installed"; \
 	else \
-		chsh -s $$(which zsh); \
-		bash -c "$$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)" \
+		bash -c "$$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"; \
+		echo 'zinit light zsh-users/zsh-completions' >> ~/.zshrc; \
+		echo 'zinit light zsh-users/zsh-autosuggestions' >> ~/.zshrc; \
+		echo 'zinit light zdharma-continuum/fast-syntax-highlighting' >> ~/.zshrc; \
+		echo 'zinit load zdharma-continuum/history-search-multi-word' >> ~/.zshrc; \
 		source ~/.zshrc; \
-		zinit self-update; \
 	fi
 
 clean:

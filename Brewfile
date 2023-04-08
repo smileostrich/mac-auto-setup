@@ -1,8 +1,5 @@
 # Terminal tools
 brew "zsh"
-brew "zsh-syntax-highlighting"
-brew "zsh-completions"
-brew "zsh-autosuggestions"
 brew "asdf"
 brew "curl"
 brew "fzf"
