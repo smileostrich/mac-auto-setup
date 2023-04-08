@@ -10,6 +10,8 @@ install:
 	sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 	brew bundle --file=Brewfile
 	cargo install wrangler
+	echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.zshrc
+	source ~/.zshrc
 
 clean:
 	brew bundle cleanup --force --file=Brewfile
