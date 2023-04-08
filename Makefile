@@ -47,6 +47,7 @@ set-zinit:
 		echo 'zinit light zsh-users/zsh-autosuggestions' >> ~/.zshrc; \
 		echo 'zinit light zdharma-continuum/fast-syntax-highlighting' >> ~/.zshrc; \
 		echo 'zinit load zdharma-continuum/history-search-multi-word' >> ~/.zshrc; \
+		echo 'zinit light romkatv/powerlevel10k' >> ~/.zshrc; \
 		source ~/.zshrc; \
 	fi
 
