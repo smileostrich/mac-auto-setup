@@ -47,7 +47,10 @@ set-zinit:
 		echo 'zinit light zsh-users/zsh-autosuggestions' >> ~/.zshrc; \
 		echo 'zinit light zdharma-continuum/fast-syntax-highlighting' >> ~/.zshrc; \
 		echo 'zinit load zdharma-continuum/history-search-multi-word' >> ~/.zshrc; \
+		echo 'zinit ice depth="1"' >> ~/.zshrc; \
 		echo 'zinit light romkatv/powerlevel10k' >> ~/.zshrc; \
+		echo 'zi ice from"gh-r" as"program"' >> ~/.zshrc; \
+		echo 'zi light junegunn/fzf' >> ~/.zshrc; \
 		source ~/.zshrc; \
 	fi
 

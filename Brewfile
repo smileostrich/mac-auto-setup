@@ -2,7 +2,6 @@
 brew "zsh"
 brew "asdf"
 brew "curl"
-brew "fzf"
 brew "fd"
 brew "bat"
 brew "exa"
