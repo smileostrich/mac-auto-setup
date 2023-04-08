@@ -41,7 +41,11 @@ cd ~/.config # not necessarily. This can be anywhere
 git clone https://github.com/smileostrich/mac-auto-setup
 
 cd mac-auto-setup
+
 make install
+
+# if you need others also
+make install-others
 ```
 
 
