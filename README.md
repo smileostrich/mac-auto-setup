@@ -1,4 +1,4 @@
-# Mac M2 Auto Setup Script (Light)
+# Mac Auto Setup Script (Light)
 This is a lightweight script to automatically set up a new Mac development environment using a subset of Homebrew packages, Rust, Oh My Zsh, and other useful tools and libraries.
 This was tested by m2 Ventura(13.3.1)
 
