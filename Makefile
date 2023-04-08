@@ -1,4 +1,4 @@
-install: set-xcode set-brew set-ohmyzsh
+install: set-xcode set-ohmyzsh set-zinit set-brew
 	sudo -v
 	brew update
 	brew bundle --file=Brewfile
@@ -34,6 +34,16 @@ set-ohmyzsh:
 		echo "Oh My Zsh is already installed."; \
 	else \
 		sh -c "$$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"; \
+	fi
+
+set-zinit:
+	if [ -x $$(which zinit) ]; then \
+		echo "Zinit already installed"; \
+	else \
+		chsh -s $$(which zsh); \
+		bash -c "$$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)" \
+		source ~/.zshrc; \
+		zinit self-update; \
 	fi
 
 clean:
