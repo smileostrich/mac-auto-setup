@@ -40,8 +40,8 @@ This script installs the following tools and libraries:
 cd ~/.config # not necessarily. This can be anywhere
 git clone https://github.com/smileostrich/mac-auto-setup
 
-cd dotfiles
-./symlink.sh
+cd mac-auto-setup
+make install
 ```
 
 
