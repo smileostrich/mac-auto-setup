@@ -9,10 +9,11 @@ install-others:
 	sudo -v
 	brew update
 	brew bundle --file=Brewfile_others
+	rustup-init
 	if command -v wrangler &> /dev/null; then \
 		echo "wrangler is already installed"; \
 	else \
-		cargo install wrangler; \
+		yarn global add wrangler; \
 		echo 'export PATH="$$HOME/.cargo/bin:$$PATH"' >> ~/.zshrc; \
 		source ~/.zshrc; \
 	fi
