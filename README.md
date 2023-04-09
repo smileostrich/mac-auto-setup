@@ -44,8 +44,8 @@ make install-others
 
 ### Programming Tools
 - [Docker](https://www.docker.com/)
+- [node]()
 - [yarn](https://formulae.brew.sh/formula/yarn)
-- [rust](https://formulae.brew.sh/formula/rust)
 
 ### Applications
 - [Discord](https://formulae.brew.sh/cask/discord)
