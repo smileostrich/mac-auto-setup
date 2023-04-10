@@ -46,6 +46,7 @@ make install-others
 - [Docker](https://www.docker.com/)
 - [node]()
 - [yarn](https://formulae.brew.sh/formula/yarn)
+- [insomnia]()
 
 ### Applications
 - [Discord](https://formulae.brew.sh/cask/discord)
