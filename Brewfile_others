@@ -1,1 +1,2 @@
 brew "rustup-init"
+cask "insomnia"
