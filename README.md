@@ -64,7 +64,8 @@ make install-others
 ## list of `install-others`
 - [Rust](https://www.rust-lang.org/)
 - [Cargo](https://doc.rust-lang.org/cargo/)
-
+- [insomnia](https://insomnia.rest/)
+- [minikube](https://minikube.sigs.k8s.io/docs/)
 
 ## License
 This script is released under the [MIT License](LICENSE).

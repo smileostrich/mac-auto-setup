@@ -14,6 +14,7 @@ brew "git-delta"
 
 # programming
 cask "docker"
+cask "docker-compose"
 brew "node"
 brew "yarn"
 

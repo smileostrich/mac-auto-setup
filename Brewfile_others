@@ -1,2 +1,3 @@
 brew "rustup-init"
 cask "insomnia"
+brew "minikube"
