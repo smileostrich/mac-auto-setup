@@ -24,6 +24,8 @@ cask "slack"
 cask "visual-studio-code"
 cask "zoom"
 cask "notion"
+cask "1password"
+cask "1password-cli"
 
 # fonts
 tap "homebrew/cask-fonts"
