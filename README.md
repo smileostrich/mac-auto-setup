@@ -70,8 +70,10 @@ make install-others
 
 - [Rust](https://www.rust-lang.org/)
 - [Cargo](https://doc.rust-lang.org/cargo/)
-- [insomnia](https://insomnia.rest/)
 - [minikube](https://minikube.sigs.k8s.io/docs/)
+- [skopeo](https://github.com/containers/skopeo)
+- [rclone](https://rclone.org/)
+- [insomnia](https://insomnia.rest/)
 
 ## License
 

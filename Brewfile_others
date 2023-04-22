@@ -1,3 +1,6 @@
 brew "rustup-init"
-cask "insomnia"
 brew "minikube"
+brew "rclone"
+brew "skopeo"
+
+cask "insomnia"
