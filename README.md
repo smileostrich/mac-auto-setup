@@ -73,6 +73,7 @@ make install-others
 - [minikube](https://minikube.sigs.k8s.io/docs/)
 - [skopeo](https://github.com/containers/skopeo)
 - [rclone](https://rclone.org/)
+- [jq](https://stedolan.github.io/jq/)
 - [insomnia](https://insomnia.rest/)
 
 ## License
