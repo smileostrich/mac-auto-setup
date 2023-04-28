@@ -5,6 +5,8 @@ This was tested by m2 Ventura(13.3.1)
 
 ## Usage
 
+### Default command
+
 ```bash
 cd ~/.config # not necessarily. This can be anywhere
 git clone https://github.com/smileostrich/mac-auto-setup
@@ -12,10 +14,16 @@ git clone https://github.com/smileostrich/mac-auto-setup
 cd mac-auto-setup
 
 make install
-
-# if you need others also
-make install-others
 ```
+
+### Other commands
+
+- `make install-others`
+  - [package list](#list-of-install-others)
+- `make install-rust`
+  - [package list](#list-of-install-rust)
+- `make install-java`
+  - [package list](#list-of-install-java)
 
 ## list of `install`
 
@@ -49,7 +57,6 @@ make install-others
 - [Docker](https://www.docker.com/)
 - [node]()
 - [yarn](https://formulae.brew.sh/formula/yarn)
-- [insomnia]()
 
 ### Applications
 
@@ -68,13 +75,20 @@ make install-others
 
 ## list of `install-others`
 
-- [Rust](https://www.rust-lang.org/)
-- [Cargo](https://doc.rust-lang.org/cargo/)
 - [minikube](https://minikube.sigs.k8s.io/docs/)
 - [skopeo](https://github.com/containers/skopeo)
 - [rclone](https://rclone.org/)
 - [jq](https://stedolan.github.io/jq/)
 - [insomnia](https://insomnia.rest/)
+
+## list of `install-rust`
+
+- [Rust](https://www.rust-lang.org/)
+- [Cargo](https://doc.rust-lang.org/cargo/)
+
+## list of `install-java`
+
+- [maven](https://maven.apache.org/)
 
 ## License
 

@@ -9,6 +9,16 @@ install-others:
 	sudo -v
 	brew update
 	brew bundle --file=Brewfile_others
+
+install-java:
+	sudo -v
+	brew update
+	brew bundle --file=Brewfile_java
+
+install-rust:
+	sudo -v
+	brew update
+	brew bundle --file=Brewfile_rust
 	rustup-init
 	if command -v wrangler &> /dev/null; then \
 		echo "wrangler is already installed"; \
