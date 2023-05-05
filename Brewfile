@@ -19,6 +19,7 @@ brew "node"
 brew "yarn"
 
 # Applications
+brew "mas"
 cask "discord"
 cask "slack"
 cask "visual-studio-code"
@@ -26,6 +27,7 @@ cask "zoom"
 cask "notion"
 cask "1password"
 cask "1password-cli"
+mas "Kakaotalk", id: 869223134
 
 # fonts
 tap "homebrew/cask-fonts"

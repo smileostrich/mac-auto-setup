@@ -66,6 +66,7 @@ make install
 - [Zoom](https://zoom.us/)
 - [Notion](https://formulae.brew.sh/cask/notion)
 - [1password](https://1password.com/ko/)
+- [KakaoTalk](https://www.kakaocorp.com/page/service/service/KakaoTalk)
 
 ### Fonts
 
