@@ -2,5 +2,7 @@ brew "minikube"
 brew "rclone"
 brew "skopeo"
 brew "jq"
+brew "podman"
+brew "teller"
 
 cask "insomnia"

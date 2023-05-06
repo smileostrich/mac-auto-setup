@@ -81,6 +81,8 @@ make install
 - [rclone](https://rclone.org/)
 - [jq](https://stedolan.github.io/jq/)
 - [insomnia](https://insomnia.rest/)
+- [podman](https://podman.io/)
+- [teller](https://tlr.dev/)
 
 ## list of `install-rust`
 
