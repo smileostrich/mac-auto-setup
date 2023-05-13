@@ -83,6 +83,7 @@ make install
 - [insomnia](https://insomnia.rest/)
 - [podman](https://podman.io/)
 - [teller](https://tlr.dev/)
+- [wireshark](https://www.wireshark.org/)
 
 ## list of `install-rust`
 

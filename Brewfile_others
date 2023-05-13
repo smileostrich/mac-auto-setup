@@ -4,5 +4,6 @@ brew "skopeo"
 brew "jq"
 brew "podman"
 brew "teller"
+brew "wireshark"
 
 cask "insomnia"
