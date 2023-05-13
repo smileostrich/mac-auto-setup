@@ -6,4 +6,5 @@ brew "podman"
 brew "teller"
 brew "wireshark"
 
+cask "wireshark-chmodbpf"
 cask "insomnia"
